@@ -1,6 +1,6 @@
 # Maintainer: Co-Prime Bageler <cloakoverseerb@gmail.com>
 
-pkgname=2bos
+pkgname=ftuibos
 pkgver=1.0.0
 pkgrel=1
 pkgdesc="The first fully TUI based operating system."
