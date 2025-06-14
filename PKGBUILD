@@ -15,11 +15,11 @@ sha256sums=('SKIP') # TEMPORARY CHECKSUM FOR TESTING
 makedepends=('rust' 'cargo')
 
 build() {
-    cd "${srcdir}/${pkgname}-${pkgver}"
+    cd "${srcdir}/2BOS-${pkgver}"
     cargo build --release --locked
 }
 
 package() {
-    cd "${srcdir}/${pkgname}-${pkgver}"
+    cd "${srcdir}/2BOS-${pkgver}"
     install -Dm755 "target/release/${pkgname}" "${pkgdir}/usr/bin/${pkgname}"
 }
