@@ -10,6 +10,8 @@ depends=('zsh' 'tmux' 'btop' 'nvim') # add any runtime dependencies
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
 sha256sums=('SKIP')  # Use `SKIP` while testing, real checksum preferred later
 
+makedepends('rust')
+
 package() {
     cd "$srcdir/$pkgname-$pkgver"
     install -Dm755 install.sh "$pkgdir/usr/bin/2bos"
