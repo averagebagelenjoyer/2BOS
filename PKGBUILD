@@ -14,7 +14,6 @@ sha256sums=('SKIP') # TEMPORARY CHECKSUM FOR TESTING
 
 makedepends=('rust' 'cargo')
 
-
 build() {
     cd "${srcdir}/${pkgname}-${pkgver}"
     cargo build --release --locked
