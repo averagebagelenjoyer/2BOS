@@ -16,6 +16,9 @@ sudo pacman -Syu git
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
+cd ..
+rm -rf yay
+yay --version
 ```
 
 *ok well actually this hasn't been added to the AUR yet.*
