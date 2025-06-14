@@ -1,0 +1,16 @@
+[package]
+name = "2bos"
+version = "1.0.0"
+edition = "2021"
+
+[[bin]]
+name = "2bos"
+path = "src/main.rs"
+
+[[bin]]
+name = "2bos-installer"
+path = "src/bin/install.rs"
+
+[dependencies]
+crossterm = "0.27"
+ratatui = "0.20"
