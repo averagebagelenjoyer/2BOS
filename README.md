@@ -12,6 +12,7 @@
 
 If you do not have `yay` installed then run
 ```
+sudo pacman -Syu git
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
