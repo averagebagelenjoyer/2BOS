@@ -1,5 +1,9 @@
+# This software is and always will be free to use, modify, and distribute.
+
 # `FTUIBOS`
+
 `FTUIBOS` stands for Fully Text User Interface Based Operating System. Or simply `2BOS`. Pronounced Two-Boss.
+
 
 ## Installation Process
 `2BOS` can be installed via the AUR.
