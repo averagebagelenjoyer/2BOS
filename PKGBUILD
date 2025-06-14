@@ -12,14 +12,13 @@ sha256sums=('SKIP') # TEMPORARY CHECKSUM FOR TESTING
 
 makedepends=('rust' 'cargo')
 
+
 build() {
-    cd "$srcdir/$pkgname-$pkgver"
-    cargo build --release --bin 2bos
-    cargo build --release --bin 2bos-installer
+    cd "${srcdir}/${pkgname}-${pkgver}"
+    cargo build --release --locked
 }
 
 package() {
-    cd "$srcdir/$pkgname-$pkgver"
-    install -Dm755 "target/release/2bos" "$pkgdir/usr/bin/2bos"
-    install -Dm755 "target/release/2bos-installer" "$pkgdir/usr/bin/2bos-installer"
+    cd "${srcdir}/${pkgname}-${pkgver}"
+    install -Dm755 "target/release/${pkgname}" "${pkgdir}/usr/bin/${pkgname}"
 }
