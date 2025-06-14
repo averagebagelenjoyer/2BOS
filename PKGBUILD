@@ -1,3 +1,5 @@
+# Maintainer: Co-Prime Bageler <cloakoverseerb@gmail.com>
+
 pkgname=2bos
 pkgver=1.0.0
 pkgrel=1
