@@ -16,7 +16,7 @@ makedepends=('rust' 'cargo')
 
 build() {
     cd "${srcdir}"
-    cargo build --release --locked
+    cargo build --release # --locked
 }
 
 package() {
