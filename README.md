@@ -24,3 +24,8 @@ Remove the `F`, now you have `TUIBOS`. Seperate `TUI` and `BOS`. In my eyes `TUI
 
 ### What is the point?
 GUI is easy to use, learn, and understand. CLI is easy to make, fast, and efficient. So why not combine the two?
+
+# ???
+*"yoooo what if i made the first fully TUI based operating system? ight bet."*
+
+*-AverageBagelEnjoyer 2025*
