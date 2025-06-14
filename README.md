@@ -17,6 +17,8 @@ cd yay
 makepkg -si
 ```
 
+*ok well actually this hasn't been added to the AUR yet.*
+
 ## Q&A
 
 ### How was `2BOS` derived?
