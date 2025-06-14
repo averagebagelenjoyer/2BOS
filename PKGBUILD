@@ -1,7 +1,7 @@
 pkgname=2bos
 pkgver=1.0.0
 pkgrel=1
-pkgdesc="Fully Text User Interface Based Operating System"
+pkgdesc="The first fully TUI based operating system."
 arch=('any')
 url="https://github.com/yourusername/2BOS"
 license=('MIT') # or whatever license you use
