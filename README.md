@@ -1,4 +1,4 @@
-# This software is and always will be free to use, modify, and distribute.
+## This software is and always will be free to use, modify, and distribute.
 
 # `FTUIBOS`
 
