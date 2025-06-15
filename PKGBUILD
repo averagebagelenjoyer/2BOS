@@ -16,7 +16,7 @@ makedepends=('rust' 'cargo')
 
 pkgver() {
     cd "$srcdir/2BOS"
-    git describe --tags | sed 's/^v//' # Converts Git tag to version
+    echo "r$(git rev-list --count HEAD).$(git rev-parse --short HEAD)"
 }
 
 build() {
