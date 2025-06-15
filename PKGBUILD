@@ -9,7 +9,7 @@ url="https://github.com/averagebagelenjoyer/2BOS"
 license=('MIT')
 depends=()
 
-source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
+source=("ftuibos-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz")
 sha256sums=('SKIP') # TEMPORARY CHECKSUM FOR TESTING
 
 makedepends=('rust' 'cargo')
