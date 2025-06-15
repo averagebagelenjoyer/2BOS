@@ -14,6 +14,11 @@ sha256sums=('SKIP') # TEMPORARY CHECKSUM FOR TESTING
 
 makedepends=('rust' 'cargo')
 
+pkgver() {
+    cd "$srcdir/2BOS"
+    git describe --tags | sed 's/^v//' # Converts Git tag to version
+}
+
 build() {
     cd "${srcdir}"
     cargo build --release # --locked
