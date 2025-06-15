@@ -20,11 +20,11 @@ pkgver() {
 }
 
 build() {
-    cd "${srcdir}"
+    cd "${srcdir}/2BOS"
     cargo build --release # --locked
 }
 
 package() {
-    cd "${srcdir}"
+    cd "${srcdir}/2BOS"
     install -Dm755 "target/release/ftuibos" "${pkgdir}/usr/bin/ftuibos"
 }
