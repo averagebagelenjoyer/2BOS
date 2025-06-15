@@ -29,7 +29,8 @@ yay --version
 Remove the `F`, now you have `TUIBOS`. Seperate `TUI` and `BOS`. In my eyes `TUI` looks like it should sound like `TWO`, and `BOS` should sound like `BOSS`. Therefore, `2BOS` would be a good shortening.
 
 ### What is the point?
-GUI is easy to use, learn, and understand. CLI is easy to make, fast, and efficient. So why not combine the two?
+GUI is beginner-friendly. CLI is powerful.
+TUI is both.
 
 # ???
 *"yoooo what if i made the first fully TUI based operating system? ight bet."*
