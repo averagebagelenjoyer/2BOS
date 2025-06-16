@@ -5,3 +5,4 @@ version = "0.1.0"
 [dependencies]
 crossterm = "0.27"
 ratatui = "0.20"
+nix = "0.27"
