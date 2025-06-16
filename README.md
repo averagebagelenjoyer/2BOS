@@ -8,7 +8,7 @@
 ## Installation Process
 `2BOS` can be installed via the AUR.
 
-`yay -S 2bos`
+`yay -S ftuibos`
 
 If you do not have `yay` installed then run
 ```
