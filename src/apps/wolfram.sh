@@ -1,4 +1,5 @@
 #!/bin/bash
+# Requires `jq`
 
 read -p "Wolfram App ID [^C to cancel]: " API_KEY
 read -p "Enter your question: " QUERY
